@@ -6,7 +6,7 @@ __________________
 [Forms](http://www.iit.edu/graduate_college/academic_affairs/FormsGradStu.shtml)
 __________________
 #To Do
-- Change Intro to Exec Summary
+x Change Intro to Exec Summary
 - Add Content Inventory to appendix
 - Add more references to decision-making points
 - Add more visuals for explanation: tables, screenshots, etc.
