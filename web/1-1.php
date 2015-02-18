@@ -31,11 +31,50 @@
   
   <p class="caption" id="f2">Figure 2: Google Analytics’ pageviews for the Graham Resource Center,</p>
   <p class="caption">in order of most visited pages from 19 Aug 19, 2013 - 10 May 2014</P>
-        <img src="/assets/images/grc.png" />
-
-      
+   <img src="/assets/images/grc.png" />
   </div>  
 </div>
+  
+	<div class="row">
+		<div class="large-12 columns">
+      <h2>Content Structure</h2>  
+      <p>The greatest improvement to the site will be having a plan in how the content is presented to users. The most pertinent information is not always highlighted, for example, on the faculty page (see figure 3), there is a link to information for new IIT faculty, but it is the very last item listed and will scroll off the page on smaller computer monitors. </p>
+      
+      <p class="caption" id="f3">Figure 3: Screenshot of the faculty page for the current library website.</p>
+      <p class="caption">Available online at <a href="http://library.iit.edu/faculty/" target="_blank">http://library.iit.edu/faculty/</a></p>
+      <img src="/assets/images/faculty.png" />
+      
+    <p>Our current site was hand-coded using PHP and a MySQL database; there is no content management system to help control the flow of information. The new Drupal site will allow us to plan for related content rules that will automatically display along with certain subjects. The most noticeable example will be including the types of content our subscription databases contain. Right now, one can find a list of databases by format on the current site and then access a list of databases like the thesis example in figure 4:</p>
+    
+      <p class="caption" id="f4">Figure 4: Screenshot of the resources available for dissertations and theses.</p>
+      <p class="caption">Available online at <a href="http://library.iit.edu/formats" target="_blank">http://library.iit.edu/formats</a>.</p>
+      <img src="/assets/images/dissertations.png" />    
+      
+      <p>This format link is difficult to find on the website, and exists independently of the main databases page (<a href="http://library.iit.edu/databases/" target="_blank">http://library.iit.edu/databases/</a>). The new site includes a one-to many field reference for format type within the database record (see figure 5):</p>
+        
+      <p class="caption" id="f5">Figure 5: Screenshot of a sample database page, providing links to other resources using the same subjects and formats.</p>
+      <p class="caption">Available online at <a href="http://216.47.136.104/databases/538" target="_blank">http://216.47.136.104/databases/538</a></p>
+      <img src="/assets/images/psycinfo.png" />    
+      
+      <p>Users will be able to click on the format type listed to access more resources. </p>
+      
+      <h3>Microinteractions</h3>
+      <p>There is a new phrase being used user design: microinteractions. They are, as described by Saffer “a tiny piece of functionality that does only one thing” (2013). Inviting a user to "like" a Facebook page or sign up for an email list (King 2014) are two examples. Most microinteractions seem to be designed for marketing purposes, but I think the idea can be leveraged for patron questions as well. One example would be on the pages that deal with user policies; the text could end with a form: “Have more questions about our 24-hour access policy? Ask us here.” The form submission would then send an email to the appropriate department. I expect that fewer questions would be left unanswered in users’ minds if we offer a “point of sale” contact method rather than making them locate our contact information themselves.</p>
+      
+      <h3>Increase Readability</h3>
+      <p>The current site is very text heavy and written in paragraph style rather than an outline. Many of the current site’s pages average a fourteenth grade reading level, using a simple online tool at readability-score.com (see figure 6). This should be lowered substantially to remove barriers to students accessing our resources (Costello 2014) and will be particularly helpful for our non-native English speaking students.</p>
+      
+      <p class="caption" id="f6">Figure 6: Assessment of the Access & Usage text from readability-score.com.</p>
+      <p class="caption">Text from <a href="http://library.iit.edu/policies/access.php" target="_blank">http://library.iit.edu/policies/access.php</a></p>
+      <img src="/assets/images/readability.png" />  
+      
+      <p>The example above displays only about one-third of the text on the site and is a very dense read. The reference department has a library student doing practicum work for us this semester, and she is currently making a first attempt at re-writing much of this content.</p>
+      
+      <p>The switch to a content management system will also allow us to create staff logins with different levels of access to the system. The internal stakeholders can then implement a workflow that will require a review process for certain types of information, similar to what was implemented at one New York University health Sciences Libraries (Morten-Owens 2011).</p>
+      
+    </div>
+  </div>
+  
   
   
 

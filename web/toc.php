@@ -11,7 +11,7 @@
         <li>Executive Summary</li>
         <li>Implementing a Content Strategy</li>
         <li class="sub1">Content Inventory</li>
-        <li class="sub1">Content Layout</li>
+        <li class="sub1">Content Structure</li>
         <li class="sub2">Microinteractions</li>
         <li class="sub2">Increase Readability</li>
         <li>Highlighting electronic resources</li>
