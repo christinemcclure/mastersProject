@@ -71,16 +71,112 @@
       <p>The example above displays only about one-third of the text on the site and is a very dense read. The reference department has a library student doing practicum work for us this semester, and she is currently making a first attempt at re-writing much of this content.</p>
       
       <p>The switch to a content management system will also allow us to create staff logins with different levels of access to the system. The internal stakeholders can then implement a workflow that will require a review process for certain types of information, similar to what was implemented at one New York University health Sciences Libraries (Morten-Owens 2011).</p>
-      
     </div>
   </div>
   
+  	<div class="row">
+      <div class="large-12 columns">
+        <h1>Highlighting electronic resources</h1>
+        <h2>Remove the catalog search from the home page</h2>
+        <p>The home page of the current library website (<a href="http://library.iit.edu" target="_blank">http://library.iit.edu</a>) includes a search box that sends a query to the local instance of the library’s online public access catalog (OPAC). There only three types of items an OPAC search will return. The first type includes physical items in the library’s collection: books, videos, theses, etc. The second are scanned files from the HathiTrust digital project. This includes digitized content from the Google Books and Internet Archives projects, as well as individual libraries’ digitization efforts (“Our Partnership”). The last type of items are bibliographic records for electronic books from vendors. Books24x7 and SpringerLink are two vendors that supply us with these records, but they are in the minority; the library does not receive (nor could our infrastructure accommodate) files of the millions of journal articles that comprise the majority of our database subscriptions. This means that only searching the OPAC for material will leave the majority of the library’s collection unused.</p>
+        <p>Students will often ignore all other options on the library’s cluttered home page in favor of entering their research topic directly into the home page search box,<sup><a id="refsup2" href="#sup2">2</a></sup> which triggers an OPAC search. Some searches yield fruitful results: a search for “javascript” will turn up many relevant examples from our e-book subscriptions (see result at <a href="http://tinyurl.com/OMQSRUT" target="_blank">http://tinyurl.com/OMQSRUT</a>). If the search doesn’t locate items owned by the Galvin Library, however, the results page will either show results from the HathiTrust database, or display a “no results found” message. An example would be a search about the “fall of the Roman Empire”. Searching for this phrase will return many results from the OPAC (seen here: <a href="http://tinyurl.com/Q5VT9MX" target="_blank">http://tinyurl.com/Q5VT9MX</a>), but it is unlikely that an undergraduate student writing a short paper for a history class will be interested in the five-volume set written in 1845—this was the first item returned when this paper was written.</p>
+        <p>Students who only search for their topic from the library home page become frustrated by the limited results and often abandon the library site for Google. A cognitive bias now known as the Dunning-Kruger effect leads them to believe that the thousands of results they get from a search in Google or another search engine means that they are performing research effectively (Gross 2012). Justin Kruger and David Dunning’s 1999 study of psychology students showed that those who lack knowledge in an area cannot successfully judge competence in that area—either their own or in others (Kruger 1999). </p>
+        <p>Software has been developed to simulate the Google experience for library users; it is called a “discovery layer” and allows an institution access to a centralized index of millions of journal articles, along with the local holdings of the library (Hoeppner 2012). Galvin Library does not have a subscription to discovery later software such as Primo, Summon, or AquaBrowser, so it is imperative we improve the display of our electronic resources. The library budget from 2013 allocated 88% of its purchasing funds on subscription resources like databases versus 3% of one-time purchase of books, videos, and similar items. This suggests that the website should focus more on database subscriptions rather than books, but that is not currently the case. Figure 7 below is a screenshot of the library’s home page, with book resource links highlighted</p>
+
+        <p class="caption" id="f7">Figure 7: Current home page, book-related items.</p>
+        <img src="/assets/images/home-page-books.png" />          
+        <p>Next is the same page with the library’s electronic resources highlighted (those that can be accessed from off-campus). </p>
+        <p class="caption" id="f8">Figure 8: Current home page, database items.</p>
+        <img src="/assets/images/home-page-databases.png" />          
+        
+        <p>All of these items require an additional clicks to get to the information, something many students aren’t willing to attempt. One major change to the new site will be to remove the OPAC search box from the library home page and replace it links that will more quickly direct students to databases. The new home page change will reflect the preference for electronic items over print. This will also bring the site into alignment with the library’s vision of providing “innovative programs, infrastructure and outreach” ("Paul V. Galvin - Mission"). A recent study has shown that use of the library’s databases or e-books are one predictor of success in first year undergraduates: students who used the library and its resources had a higher average GPA than those who did not (Soria, 2013).</p>
   
+
+        <h2>Add a database quick search on the new home page</h2>
+        <p>There is a method to allow students to perform a search of several—not all—subscription databases that could be placed on the home page of the new site without additional cost. Interfaces by the companies EBSCO and ProQuest have the ability to search several of their own database holdings. For the student quickly looking for articles to support a short research paper, a search form such as this may provide enough immediate results to encourage them to stay on the library’s website instead of abandoning it for Google. <span class="fix">Create this and add link</span></p>
+      </div>  
+    </div>
+  
+    
+  	<div class="row">
+      <div class="large-12 columns">
+        <h1>User-Centered Design</h1>
+        <h2>Customize the main navigation to library’s needs</h2>
+        <p>The look and feel of the current library website was developed by IIT’s Marketing and Communication department. It uses the same color scheme, header and footer as the university site. The only areas that were customized for the library were the address and contact links; all of the other items remained the same. One problem our students have with this design is with this secondary header (figure 9).</p>
+        <p class="caption" id="f9">Figure 9: Current website secondary header.</p>
+        <img src="/assets/images/header.png" />   
+        <p>These links were designed to appeal to people who are not currently students at IIT: prospective students, employers, and former students. Current students looking for library resources often click on these links because of their bright colors and prominence on the page. Doing this removes them from the library website: library.iit.edu is located on a different server than www.iit.edu so that we can easily make changes to the site. Students become confused when they click on one of these links and leave the library site entirely. </p>
+        <p>The header on the new IIT site would cause even more confusion for students. Figure 10 is a screenshot of the new site at web.iit.edu with the “research” submenu displayed:</p>
+        <p class="caption" id="f10">Figure 10: IIT main site secondary header.</p>
+        <img src="/assets/images/web.iit.png" />  
+        <p>None of the submenu links shown point to library resources, even though the main heading is “research.” In the spring of 2014 I made the case to the Marketing and Communications team for the library to customize this header for our own use. Table 2 shows the statistics I collected from Google Analytics and sent to the team:</p>
+<p class="caption" id="t2">Table 2: Website statistics sent to Communications & Marketing.</p>        
+ <table>
+   <tr><td>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Over a 12-month period (April 1, 2013 – April 01, 2014):</td>
+          </tr>
+          <tr>
+            <td>The library website had 309,091 visits, 32% which originated on-campus.</td>
+          </tr>  
+          <tr>
+            <td>Outside of the home page, our main visitor paths (called “users flow” in Google Analytics) consisted of directories that can only be accessed by IIT faculty, staff, and currently-enrolled students:</td>
+          </tr>  
+        </tbody>
+      </table>            
+       
+     </td></tr>
+   <tr><td>
+      <table>
+        <thead>
+          <tr>
+            <th>Site directory accessed</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>/menu</td>
+            <td>Users are directed here after they have logged into to IIT’s portal system and selected the “library e-resources” link.</td>
+          </tr>
+          <tr>
+            <td>/login</td>
+            <td>Users are redirected to this login page when they try to access any content restricted to the IIT community (excluding alumni).</td>
+          </tr>
+          <tr>
+            <td>/databases</td>
+            <td>This is the main database page. The page itself is not restricted, but links to all subscription databases require user authentication through a proxy server and are only available to current students. </td>
+          </tr>
+          <tr>
+            <td>/blackboard</td>
+            <td>This page displays once a student has logged into Blackboard and clicked the “Library Resources” link. </td>
+          </tr>
+        </tbody>
+      </table>       
+       
+     </td></tr>
+</table>
+
+        
+      
+   
+        
+      </div>
+    </div>
   
 
 	<div class="row">
     <div class="large-12 columns">
       <p><sup><a id="sup1" href="#refsup1">1</a></sup>Some pages redirected to another domain not included in Galvin Library’s statistics, but most pages without data were due to an unknown error.</p>
+      <p><sup><a id="sup2" href="#refsup2">2</a></sup>This and the following are examples of IIT students' behavior, either provided anecdotally by the students themselves, or witnessed by librarians watching students do research.</p>
     </div>
   </div>
 
