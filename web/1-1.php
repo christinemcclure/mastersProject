@@ -107,68 +107,49 @@
         <img src="/assets/images/header.png" />   
         <p>These links were designed to appeal to people who are not currently students at IIT: prospective students, employers, and former students. Current students looking for library resources often click on these links because of their bright colors and prominence on the page. Doing this removes them from the library website: library.iit.edu is located on a different server than www.iit.edu so that we can easily make changes to the site. Students become confused when they click on one of these links and leave the library site entirely. </p>
         <p>The header on the new IIT site would cause even more confusion for students. Figure 10 is a screenshot of the new site at web.iit.edu with the “research” submenu displayed:</p>
+        
         <p class="caption" id="f10">Figure 10: IIT main site secondary header.</p>
         <img src="/assets/images/web.iit.png" />  
+        
         <p>None of the submenu links shown point to library resources, even though the main heading is “research.” In the spring of 2014 I made the case to the Marketing and Communications team for the library to customize this header for our own use. Table 2 shows the statistics I collected from Google Analytics and sent to the team:</p>
 <p class="caption" id="t2">Table 2: Website statistics sent to Communications & Marketing.</p>        
- <table>
-   <tr><td>
+ <?php include("/includes/stats-table.html"); ?>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Over a 12-month period (April 1, 2013 – April 01, 2014):</td>
-          </tr>
-          <tr>
-            <td>The library website had 309,091 visits, 32% which originated on-campus.</td>
-          </tr>  
-          <tr>
-            <td>Outside of the home page, our main visitor paths (called “users flow” in Google Analytics) consisted of directories that can only be accessed by IIT faculty, staff, and currently-enrolled students:</td>
-          </tr>  
-        </tbody>
-      </table>            
-       
-     </td></tr>
-   <tr><td>
-      <table>
-        <thead>
-          <tr>
-            <th>Site directory accessed</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>/menu</td>
-            <td>Users are directed here after they have logged into to IIT’s portal system and selected the “library e-resources” link.</td>
-          </tr>
-          <tr>
-            <td>/login</td>
-            <td>Users are redirected to this login page when they try to access any content restricted to the IIT community (excluding alumni).</td>
-          </tr>
-          <tr>
-            <td>/databases</td>
-            <td>This is the main database page. The page itself is not restricted, but links to all subscription databases require user authentication through a proxy server and are only available to current students. </td>
-          </tr>
-          <tr>
-            <td>/blackboard</td>
-            <td>This page displays once a student has logged into Blackboard and clicked the “Library Resources” link. </td>
-          </tr>
-        </tbody>
-      </table>       
-       
-     </td></tr>
-</table>
-
+        <p>I also included a mockup of the proposed custom header for the library:</p>
         
-      
+        <p class="caption" id="f11">Figure 11: Proposed header for new library site.</p>
+        <img src="/assets/images/proposed-header.png" />        
    
+        <p>The combination of statistics and mockup was successful; the Marketing and Communications team will allow us to create our own header for the website. <span class="fix">Add more to header and include link</span></p>
         
+        <h3>Custom sort for database subjects</h3>
+        <p>The importance of electronic resources differs by subject area, and even within different sub-sections of one discipline. There are many databases that are useful for a broad range of subjects: Business Source Premier is listed as a resource for several major areas of study at IIT, from Applied Economics to Engineering Management to Psychology. But the importance of this resource can be different for each area. A code library was in the Drupal online community that solved this dilemma. The databases by subject lists now include a sort by relevance (created by the subject librarian) as well as a title sort. This can be viewed in the placement of the Business Source Premier database for one subject (figure 12) versus another (figure 13).</p>
+        <p class="caption" id="f12">Figure 12: Databases sorted for the psychology subject.</p>
+        <p class="caption">Available at <a href="http://216.47.136.104/databases/by-subject/psychology" target="_blank">http://216.47.136.104/databases/by-subject/psychology</a>.</p>
+        <img src="/assets/images/psychology.png" />          
+
+        <p class="caption" id="f13">Figure 13: Databases sorted for the business subject.</p>
+        <p class="caption">Available at <a href="http://216.47.136.104/databases/by-subject/business" target="_blank">http://216.47.136.104/databases/by-subject/business</a>.</p>
+        <img src="/assets/images/business.png" />          
+
+        <h2>User personas</h2>
+        <p>I wanted to create user personas to guide design decisions for the new site. There was no user testing that done for the current website, and I think that it is evident in the current site’s design: the home page includes more than 50 links. This obscures the three-to-four links that are constantly used, and so I was determined to make IIT student input a large factor in the site redesign. </p>
+        <p>I advertised within the university’s daily email communication for students willing to be interviewed about their research habits. I chose six to interview: two graduate students and four undergraduates, with five different areas of study between them. I scheduled to interview them in reference suite, which is not a public area; each interview lasted 30 to 45 minutes. I received permission from all the students to record the audio of these sessions. </p>
+        <p>I used the same question structure for each interview, borrowing heavily from the topics suggested in Mulder’s <em>The User is Always Right: A Practical Guide to Creating and Using Personas for the Web</em> (2007). </p>
+        
+         <p class="caption" id="t3">Table 3: Questions used for user interviews.</p>
+         <?php include("/includes/interview-table.html"); ?>
+
+         <p>After the interviews were complete, I realized that I had limited my subjects to students who were proactive enough to read university communications and respond to a survey. I also wanted to get the perspectives of students who don’t normally engage with the library, so I developed a short, five-minute interview that used a subset of the questions above and conducted several additional interviews outside of the student cafeteria at lunchtime. </p>
+         <p>Here are some paraphrased quotes from both the short and extended interviews</p>
+         <blockquote>If you go to library.iit.edu, it shows up one way. If you go to it through Blackboard, it shows up a different way. And if you go to it through [my.iit.edu/ library resources], it shows up a different way.</blockquote>
+         <blockquote>My “perfect site” would include a single search box that searches all IIT resources.</blockquote>
+         <blockquote>I would like the site to be more simple, with a better layout and color scheme.</blockquote>
+         <blockquote>I use the SciFinder database from the databases page and start with an author search. If the author is prolific, I'll use the title stub from the citation I have. I also might Google the author first, and then use Google Scholar to see what references come up.</blockquote>
+         <p>
+           The interviews helped me define two types of student users: those who wouldn’t normally use the library website, but need to in order to access subscription resources, and those who are interested in learning about library resources and use the website as the first stop in their research. Rather than thinking about these types as undergraduate versus graduate students, I instead created the “sporadic” and “power” user personas that can be viewed in Appendix B: <em>Harried Javier</em> and <em>Resolute Rebecca</em>.
+         </p>
+         
       </div>
     </div>
   
