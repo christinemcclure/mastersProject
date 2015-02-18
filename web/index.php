@@ -4,47 +4,13 @@
   
 	<div class="row">
 		<div class="large-12 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-        
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-        
-			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
+			<h1>Galvin Library Website Redesign</h1>
+      <h2>Christine McClure</h2>
+      <p class="bump"></p>
+      <h3>Dr. Karl Stolley</h3>
+      <h3>M.S. Project</h3>
+      <h3>Spring 2015</h3>
+    </div>  
 	</div>
 
 <?php include("/includes/footer.html") ?>
