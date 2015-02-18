@@ -12,37 +12,30 @@
 </head>
 <body>
 
-<div class="off-canvas-wrap docs-wrap" data-offcanvas>
-  <div class="inner-wrap">
-    <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Christine McClure</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
 
-      <section class="right tab-bar-section">
-        <h1 class="title">Foundation</h1>
-      </section>
-
-    </nav>
-
-    <aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Table of Contents</label></li>
-        <li><a href="#">The Psychohistorians</a></li>
-        <li><a href="#">The Encyclopedists</a></li>
-        <li><a href="#">The Mayors</a></li>
-        <li><a href="#">The Traders</a></li>
-        <li><a href="#">The Merchant Princes</a></li>
-        <li><label>Foundation and Empire</label></li>
-        <li><a href="#">The General</a></li>
-        <li><a href="#">The Mule</a></li>
-        <li><label>Second Foundation</label></li>
-        <li><a href="#">Search by the Mule</a></li>
-        <li><a href="#">Search by the Foundation</a></li>
-      </ul>
-    </aside>
-
-    <section class="main-section">
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li><a href="#">Table of Contents</a></li>
+      <li><a href="#">Executive Summary</a></li>
+      <li><a href="#">Bibliography</a></li>      
+      <li><a href="#">Appendices</a></li>
+    </ul>
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Master's Project</a></li>
+    </ul>    
+  </section>
+</nav>
+  
 	<div class="row">
 		<div class="large-12 columns">
 			<h3>The Grid</h3>
@@ -87,18 +80,13 @@
 				</div>
 			</div>
 	</div>
-    </section>
 
-  <a class="exit-off-canvas"></a>
-
-  </div>
-</div>  
 
 
   
   <script src="/bower_components/foundation/js/vendor/jquery.js"></script>
   <script src="/bower_components/foundation/js/foundation/foundation.js"></script>
-  <script src="/bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+  <script src="/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
   <script>
     $(document).foundation();
   </script>
