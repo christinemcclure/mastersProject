@@ -9620,3 +9620,18 @@ nav.top-bar {
 .sub2 {
   margin-left: 40px;
 }
+
+/* line 76, ../sass/app.scss */
+span.fix {
+  color: red;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* line 78, ../sass/app.scss */
+p a {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 124%;
+  color: #686868;
+}
