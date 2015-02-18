@@ -9605,3 +9605,18 @@ nav.top-bar {
 .bump {
   margin: 100px 0 0 0;
 }
+
+/* line 71, ../sass/app.scss */
+.no-dec li {
+  list-style: none;
+}
+
+/* line 73, ../sass/app.scss */
+.sub1 {
+  margin-left: 20px;
+}
+
+/* line 74, ../sass/app.scss */
+.sub2 {
+  margin-left: 40px;
+}
