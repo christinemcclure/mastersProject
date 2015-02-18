@@ -1,4 +1,4 @@
-require 'zurb-foundation'
+add_import_path "bower_components/foundation/scss"
 require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
