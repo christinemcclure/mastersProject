@@ -9584,3 +9584,7 @@ th.hide-for-touch {
     max-width: 76rem;
   }
 }
+/* line 61, ../sass/app.scss */
+nav.top-bar {
+  margin-bottom: 40px;
+}
