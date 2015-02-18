@@ -147,8 +147,9 @@
          <blockquote>I would like the site to be more simple, with a better layout and color scheme.</blockquote>
          <blockquote>I use the SciFinder database from the databases page and start with an author search. If the author is prolific, I'll use the title stub from the citation I have. I also might Google the author first, and then use Google Scholar to see what references come up.</blockquote>
          <p>
-           The interviews helped me define two types of student users: those who wouldn’t normally use the library website, but need to in order to access subscription resources, and those who are interested in learning about library resources and use the website as the first stop in their research. Rather than thinking about these types as undergraduate versus graduate students, I instead created the “sporadic” and “power” user personas that can be viewed in Appendix B: <em>Harried Javier</em> and <em>Resolute Rebecca</em>.
-         </p>
+           The interviews helped me define two types of student users: those who wouldn’t normally use the library website, but need to in order to access subscription resources, and those who are interested in learning about library resources and use the website as the first stop in their research. Rather than thinking about these types as undergraduate versus graduate students, I instead created the “sporadic” and “power” user personas that can be viewed in Appendix B: <em>Harried Javier</em> and <em>Resolute Rebecca</em>.</p>
+         <p>Javier and Rebecca’s personas are now posted in my office so that I will remember to consider their needs as the new site is built. I plan to create a faculty persona in the future as well.</p>
+         
          
       </div>
     </div>
