@@ -9578,3 +9578,9 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+@media only screen and (min-width: 1100px) {
+  /* line 58, ../sass/app.scss */
+  .row {
+    max-width: 76rem;
+  }
+}
