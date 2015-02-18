@@ -9584,7 +9584,19 @@ th.hide-for-touch {
     max-width: 76rem;
   }
 }
-/* line 61, ../sass/app.scss */
+@media print {
+  /* line 61, ../sass/app.scss */
+  .no-print {
+    display: none;
+  }
+
+  /* line 62, ../sass/app.scss */
+  ul.title-area h1 a {
+    text-decoration: none;
+    font-size: 150%;
+  }
+}
+/* line 67, ../sass/app.scss */
 nav.top-bar {
   margin-bottom: 40px;
 }
