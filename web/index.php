@@ -15,7 +15,15 @@
     </div>  
 	</div>
 
- <?php include("toc.html") ?>    
+	<div class="row" id="toc">
+		<div class="large-12 columns">
+			<h1>Table of Contents</h1>
+      <?php include("toc.html") ?>    
+    </div>  
+	</div>
+    
+    
+ 
     
   </section>   
 
