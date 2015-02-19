@@ -14,7 +14,9 @@
       <h3>Spring 2015</h3>
     </div>  
 	</div>
-      
+
+ <?php include("toc.html") ?>    
+    
   </section>   
 
     <?php include("/includes/nav2-and-footer.html") ?>
