@@ -217,10 +217,26 @@
       <p class="citation">Saffer, D. (2013). Microinteractions: Full Color Edition: Designing with Details (1 edition). Sebastopol, CA: O'Reilly Media.</p>
       <p class="citation">Soria, K. M., Fransen, J., & Nackerud, S. (2013). Library Use and Undergraduate Student Outcomes: New Evidence for Students' Retention and Academic Success. Portal: Libraries and the Academy, 13(2), 147–164. doi:10.1353/pla.2013.0010</p>
       <p class="citation">Tidal, J. Creating a user-centered library homepage: a case study. (May 2012). Retrieved from https://ezproxy.gl.iit.edu/login?url=http://search.proquest.com/docview/1016325440?accountid=28377</p>
-
-  
     </div>
   </div>
+
+<div class="row">
+		<div class="large-12 columns">
+      <h1>Appendix A: Content Inventory</h1>
+      <p><a href="/assets/content-inventory.pdf">Download PDF</a></p>
+    </div>
+</div>
+  
+  
+<div class="row">
+		<div class="large-12 columns">
+      <h1>Appendix B: User Personas</h1>
+      <h2>Javier</h2>
+      <img src="/assets/images/javier.jpg" />   
+      <h2>Rebecca</h2>
+      <img src="/assets/images/rebecca.jpg" />
+    </div>
+</div>
 
   
 
