@@ -1,6 +1,6 @@
 <?php include("/includes/head.html") ?>
 <body>
-  <?php include("/includes/nav1.html") ?>
+  <?php include("/includes/nav.html") ?>
 
   <section>
 	<div class="row">
@@ -118,5 +118,5 @@
   </div>
   </section>
   
-<?php include("/includes/nav2-and-footer.html") ?>
+<?php include("/includes/footer.html") ?>
   
