@@ -180,6 +180,8 @@
 	<div class="row">
 		<div class="large-12 columns">
       <h1>Conclusion</h1>
+      <p>The work on the site continues, and I am now working on mini-projects to recreate the dynamic content that exists in our current site, such as pulling library hours from a Google calendar and creating a custom textbook lookup module. The addition of an Information Technology Librarian this past spring has been a boon for the new environment’s server setup and maintenance, and he is interested in learning how to create a complex site in Drupal as well.</p>
+      <p>I do not have the luxury of working on this site full-time, so it is important to have a roadmap to use to track its progress. The IT Librarian and I have been using Google Docs to work both collaboratively and asynchronously. With two librarians and several student workers, I hope to have the site ready to launch in beta mode in the fall of 2015.</p>
     </div>
   </div>  
 
