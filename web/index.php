@@ -2,7 +2,8 @@
 <body>
   <?php include("/includes/nav.html") ?>
 
-  <section>
+  
+  <section class="chapter">
 	<div class="row">
 		<div class="large-12 columns">
 			<h1>Galvin Library Website Redesign</h1>
@@ -15,8 +16,8 @@
 	</div>
   </section> 
   
-  <section>
-	<div class="row" id="figures">
+ <section class="chapter" id="toc">
+		<div class="row">
 		<div class="large-8 columns">
 			<h1>Table of Contents</h1>
       <?php include("toc.html") ?>    
@@ -24,8 +25,8 @@
 	</div>
 </section>
   
-  <section>
-	<div class="row" id="figures">
+ <section class="chapter" id="figures">
+		<div class="row">
 		<div class="large-8 columns">
 			<h1>Table of Figures</h1>
       <?php include("figures.html") ?>    
@@ -33,8 +34,8 @@
 	</div>   
   </section>    
   
- <section>
-	<div class="row" id="tables">
+ <section class="chapter" id="tables">
+		<div class="row">
 		<div class="large-8 columns">
 			<h1>Table of Tables</h1>
       <?php include("tables.html") ?>    
@@ -42,8 +43,8 @@
 	</div>     
  </section>
   
- <section>
-	<div class="row" id="summary">
+ <section class="chapter" id="summary">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>Executive Summary</h1>
       <?php include("summary.html") ?>    
@@ -51,8 +52,8 @@
 	</div>    
 </section>  
   
- <section>
-	<div class="row" id="content">
+<section class="chapter" id="content">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>Implementing a Content Strategy</h1>
       <?php include("content-management.html") ?>    
@@ -60,8 +61,8 @@
 	</div>    
 </section>    
   
- <section>
-	<div class="row" id="databases">
+<section class="chapter" id="databases">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>Highlighting electronic resources</h1>
       <?php include("databases.html") ?>    
@@ -70,8 +71,8 @@
 </section>      
   
   
- <section>
-	<div class="row" id="users">
+ <section class="chapter" id="users">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>User-Centered Design</h1>
       <?php include("users.html") ?>    
@@ -79,8 +80,8 @@
 	</div>    
 </section>     
   
- <section>
-	<div class="row" id="conclusion">
+ <section class="chapter" id="conclusion">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>Conclusion</h1>
       <?php include("conclusion.html") ?>    
@@ -88,8 +89,8 @@
 	</div>    
 </section>     
 
- <section>
-	<div class="row" id="bibliography">
+ <section class="chapter" id="bibliography">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>Bibliography</h1>
       <?php include("bibliography.html") ?>    
@@ -97,8 +98,8 @@
 	</div>    
 </section>     
   
- <section>
-	<div class="row" id="appA">
+ <section class="chapter" id="appA">
+		<div class="row">
 		<div class="large-12 columns">
 			<h1>Appendix A: Content Inventory</h1>
       <p><a href="/assets/content-inventory.pdf">Download PDF</a></p>
@@ -106,8 +107,8 @@
 	</div>    
 </section>     
   
-  <section>
-    <div class="row" id="appB">
+  <section class="chapter" id="appB">
+	  <div class="row">
       <div class="large-12 columns">
         <h1>Appendix B: User Personas</h1>
         <h2>Javier</h2>
