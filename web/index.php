@@ -106,5 +106,17 @@
 	</div>    
 </section>     
   
+  <section>
+    <div class="row" id="appB">
+      <div class="large-12 columns">
+        <h1>Appendix B: User Personas</h1>
+        <h2>Javier</h2>
+        <img src="/assets/images/javier.jpg" />   
+        <h2>Rebecca</h2>
+        <img src="/assets/images/rebecca.jpg" />
+      </div>
+  </div>
+  </section>
+  
 <?php include("/includes/nav2-and-footer.html") ?>
   
