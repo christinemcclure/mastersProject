@@ -1,6 +1,8 @@
 <?php include("/includes/head.html") ?>
 <body>
-    <?php include("/includes/nav.html") ?>
+  <?php include("/includes/nav1.html") ?>
+
+  <section class="main-section">
   
 	<div class="row">
 		<div class="large-12 columns">
@@ -12,5 +14,9 @@
       <h3>Spring 2015</h3>
     </div>  
 	</div>
+      
+  </section>   
 
+    <?php include("/includes/nav2-and-footer.html") ?>
+  
 <?php include("/includes/footer.html") ?>
