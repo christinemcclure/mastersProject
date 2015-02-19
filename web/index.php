@@ -102,7 +102,8 @@
 		<div class="row">
 		<div class="large-12 columns">
 			<h1>Appendix A: Content Inventory</h1>
-      <p><a href="/assets/content-inventory.pdf">Download PDF</a></p>
+      <p>(opens PDF in new tab)</p>
+      <a href="/assets/content-inventory.pdf" target="_blank"><img src="/assets/images/inventory.png" /></a>
     </div>  
 	</div>    
 </section>     
