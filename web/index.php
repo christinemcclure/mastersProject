@@ -24,27 +24,41 @@
 	</div>
 </section>
   
+  <section>
 	<div class="row" id="figures">
 		<div class="large-8 columns">
 			<h1>Table of Figures</h1>
       <?php include("figures.html") ?>    
     </div>  
-	</div>    
- 
+	</div>   
+  </section>    
+  
+ <section>
 	<div class="row" id="tables">
 		<div class="large-8 columns">
 			<h1>Table of Tables</h1>
       <?php include("tables.html") ?>    
     </div>  
 	</div>     
-    
+ </section>
+  
+ <section>
 	<div class="row" id="summary">
 		<div class="large-12 columns">
 			<h1>Executive Summary</h1>
       <?php include("summary.html") ?>    
     </div>  
 	</div>    
-    
+</section>  
+  
+ <section>
+	<div class="row" id="content">
+		<div class="large-12 columns">
+			<h1>Executive Summary</h1>
+      <?php include("content-management.html") ?>    
+    </div>  
+	</div>    
+</section>    
   
 <?php include("/includes/nav2-and-footer.html") ?>
   
