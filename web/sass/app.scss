@@ -55,7 +55,9 @@
 // @import "foundation/components/dropdown";
 
 @media only screen and (min-width: 1100px){
-    .row{max-width:76rem;}
+  .row{max-width:76rem;}
+  .chapter{padding-top:100px;}
+  section.chapter{padding-bottom:600px;}
 }
 @media print {
   .no-print {display:none;}
@@ -63,9 +65,12 @@
     text-decoration: none;
     font-size: 150%;
   }
+  section.chapter{
+    margin: 50px 0 0 0;
+    page-break-after: always;
+  }
 }
 
-section.chapter{padding:100px 0 200px 0;}
 nav.top-bar{margin-bottom: 100px;}
 
 .bump{margin:100px 0 0 0;}

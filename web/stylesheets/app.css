@@ -9583,57 +9583,68 @@ th.hide-for-touch {
   .row {
     max-width: 76rem;
   }
+
+  /* line 59, ../sass/app.scss */
+  .chapter {
+    padding-top: 100px;
+  }
+
+  /* line 60, ../sass/app.scss */
+  section.chapter {
+    padding-bottom: 600px;
+  }
 }
 @media print {
-  /* line 61, ../sass/app.scss */
+  /* line 63, ../sass/app.scss */
   .no-print {
     display: none;
   }
 
-  /* line 62, ../sass/app.scss */
+  /* line 64, ../sass/app.scss */
   ul.title-area h1 a {
     text-decoration: none;
     font-size: 150%;
   }
-}
-/* line 68, ../sass/app.scss */
-section.chapter {
-  padding: 100px 0 200px 0;
-}
 
-/* line 69, ../sass/app.scss */
+  /* line 68, ../sass/app.scss */
+  section.chapter {
+    margin: 50px 0 0 0;
+    page-break-after: always;
+  }
+}
+/* line 74, ../sass/app.scss */
 nav.top-bar {
   margin-bottom: 100px;
 }
 
-/* line 71, ../sass/app.scss */
+/* line 76, ../sass/app.scss */
 .bump {
   margin: 100px 0 0 0;
 }
 
-/* line 73, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 .no-dec li {
   list-style: none;
 }
 
-/* line 75, ../sass/app.scss */
+/* line 80, ../sass/app.scss */
 .sub1 {
   margin-left: 20px;
 }
 
-/* line 76, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 .sub2 {
   margin-left: 40px;
 }
 
-/* line 78, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 span.fix {
   color: red;
   font-size: 18px;
   font-weight: 900;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 p a {
   font-family: monospace;
   font-weight: 600;
@@ -9641,30 +9652,30 @@ p a {
   color: #686868;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 92, ../sass/app.scss */
 .row img {
   margin: 6px 0 40px 0;
   border: 1px solid #cccccc;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 97, ../sass/app.scss */
 .row table {
   margin: 6px 0 40px 0;
 }
 
-/* line 94, ../sass/app.scss */
+/* line 99, ../sass/app.scss */
 sup a {
   padding: 4px;
 }
 
-/* line 96, ../sass/app.scss */
+/* line 101, ../sass/app.scss */
 p sup, p sup a {
   font-size: 74%;
   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   color: black;
 }
 
-/* line 102, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 p.caption {
   margin: 0;
   font-size: 90%;
