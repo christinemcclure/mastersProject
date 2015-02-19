@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -8,29 +7,95 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Christine McClure - Master's Project</title>
-  <link rel="stylesheet" href="/stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
   <script src="/bower_components/foundation/js/vendor/modernizr.js"></script>
 </head>
-
 <body>
 
+<div class="off-canvas-wrap docs-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="right tab-bar-section">
+        <h1 class="title">Foundation</h1>
+      </section>
+
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Foundation</label></li>
+        <li><a href="#">The Psychohistorians</a></li>
+        <li><a href="#">The Encyclopedists</a></li>
+        <li><a href="#">The Mayors</a></li>
+        <li><a href="#">The Traders</a></li>
+        <li><a href="#">The Merchant Princes</a></li>
+        <li><label>Foundation and Empire</label></li>
+        <li><a href="#">The General</a></li>
+        <li><a href="#">The Mule</a></li>
+        <li><label>Second Foundation</label></li>
+        <li><a href="#">Search by the Mule</a></li>
+        <li><a href="#">Search by the Foundation</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
 	<div class="row">
 		<div class="large-8 columns">
-      <h1>Table of Contents</h1>
-      <ul class="no-dec">
-        <li>Figures</li>
-        <li>Tables</li>
-        <li class="sub1">User personas</li>
-        <li class="sub1">User experience testing</li>
-        <li>Conclusion</li>
-        <li>Rebecca</li>
-      </ul>
+			<h3>The Grid</h3>
 
-    </div>  
+			<!-- Grid Example -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="panel">
+						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-6 columns">
+					<div class="panel">
+						<p>Six columns</p>
+					</div>
+				</div>
+				<div class="large-6 columns">
+					<div class="panel">
+						<p>Six columns</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+			</div>
 	</div>
+    </section>
 
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>  
+
+
+  
   <script src="/bower_components/foundation/js/vendor/jquery.js"></script>
-  <script src="/bower_components/foundation/js/foundation/foundation.min.js"></script>
+  <script src="/bower_components/foundation/js/foundation/foundation.js"></script>
   <script src="/bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
   <script>
     $(document).foundation();
