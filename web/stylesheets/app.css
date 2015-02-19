@@ -9648,13 +9648,18 @@ p a {
 }
 
 /* line 92, ../sass/app.scss */
+sup a {
+  padding: 4px;
+}
+
+/* line 94, ../sass/app.scss */
 p sup, p sup a {
   font-size: 74%;
   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   color: black;
 }
 
-/* line 98, ../sass/app.scss */
+/* line 100, ../sass/app.scss */
 p.caption {
   margin: 0;
   font-size: 90%;
