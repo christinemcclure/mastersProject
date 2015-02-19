@@ -87,6 +87,15 @@
     </div>  
 	</div>    
 </section>     
+
+ <section>
+	<div class="row" id="bibliography">
+		<div class="large-12 columns">
+			<h1>Bibliography</h1>
+      <?php include("bibliography.html") ?>    
+    </div>  
+	</div>    
+</section>     
   
 <?php include("/includes/nav2-and-footer.html") ?>
   
