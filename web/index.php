@@ -38,7 +38,7 @@
     </div>  
 	</div>     
     
-	<div class="row">
+	<div class="row" id="summary">
 		<div class="large-12 columns">
 			<h1>Executive Summary</h1>
       <?php include("summary.html") ?>    
