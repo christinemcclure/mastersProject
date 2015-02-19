@@ -97,5 +97,14 @@
 	</div>    
 </section>     
   
+ <section>
+	<div class="row" id="appA">
+		<div class="large-12 columns">
+			<h1>Appendix A: Content Inventory</h1>
+      <p><a href="/assets/content-inventory.pdf">Download PDF</a></p>
+    </div>  
+	</div>    
+</section>     
+  
 <?php include("/includes/nav2-and-footer.html") ?>
   
