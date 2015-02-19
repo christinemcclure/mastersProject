@@ -79,5 +79,14 @@
 	</div>    
 </section>     
   
+ <section>
+	<div class="row" id="conclusion">
+		<div class="large-12 columns">
+			<h1>Conclusion</h1>
+      <?php include("conclusion.html") ?>    
+    </div>  
+	</div>    
+</section>     
+  
 <?php include("/includes/nav2-and-footer.html") ?>
   
