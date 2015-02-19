@@ -54,11 +54,30 @@
  <section>
 	<div class="row" id="content">
 		<div class="large-12 columns">
-			<h1>Executive Summary</h1>
+			<h1>Implementing a Content Strategy</h1>
       <?php include("content-management.html") ?>    
     </div>  
 	</div>    
 </section>    
+  
+ <section>
+	<div class="row" id="databases">
+		<div class="large-12 columns">
+			<h1>Highlighting electronic resources</h1>
+      <?php include("databases.html") ?>    
+    </div>  
+	</div>    
+</section>      
+  
+  
+ <section>
+	<div class="row" id="users">
+		<div class="large-12 columns">
+			<h1>User-Centered Design</h1>
+      <?php include("users.html") ?>    
+    </div>  
+	</div>    
+</section>     
   
 <?php include("/includes/nav2-and-footer.html") ?>
   

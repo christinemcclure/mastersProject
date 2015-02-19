@@ -1,0 +1,72 @@
+        <h2>Customize the main navigation to library's needs</h2>
+        <p>The look and feel of the current library website was developed by IIT's Marketing and Communication department. It uses the same color scheme, header and footer as the university site. The only areas that were customized for the library were the address and contact links; all of the other items remained the same. One problem our students have with this design is with this secondary header (figure 9).</p>
+        <p class="caption" id="f9">Figure 9: Current website secondary header.</p>
+        <img src="/assets/images/header.png" />   
+        <p>These links were designed to appeal to people who are not currently students at IIT: prospective students, employers, and former students. Current students looking for library resources often click on these links because of their bright colors and prominence on the page. Doing this removes them from the library website: library.iit.edu is located on a different server than www.iit.edu so that we can easily make changes to the site. Students become confused when they click on one of these links and leave the library site entirely. </p>
+        <p>The header on the new IIT site would cause even more confusion for students. Figure 10 is a screenshot of the new site at web.iit.edu with the "research" submenu displayed:</p>
+        
+        <p class="caption" id="f10">Figure 10: IIT main site secondary header.</p>
+        <img src="/assets/images/web.iit.png" />  
+        
+        <p>None of the submenu links shown point to library resources, even though the main heading is "research." In the spring of 2014 I made the case to the Marketing and Communications team for the library to customize this header for our own use. Table 2 shows the statistics I collected from Google Analytics and sent to the team:</p>
+<p class="caption" id="t2">Table 2: Website statistics sent to Communications & Marketing.</p>        
+ <?php include("/includes/stats-table.html"); ?>
+
+        <p>I also included a mockup of the proposed custom header for the library:</p>
+        
+        <p class="caption" id="f11">Figure 11: Proposed header for new library site.</p>
+        <img src="/assets/images/proposed-header.png" />        
+   
+        <p>The combination of statistics and mockup was successful; the Marketing and Communications team will allow us to create our own header for the website. <span class="fix">Add more to header and include link</span></p>
+        
+        <h3>Custom sort for database subjects</h3>
+        <p>The importance of electronic resources differs by subject area, and even within different sub-sections of one discipline. There are many databases that are useful for a broad range of subjects: Business Source Premier is listed as a resource for several major areas of study at IIT, from Applied Economics to Engineering Management to Psychology. But the importance of this resource can be different for each area. A code library was in the Drupal online community that solved this dilemma. The databases by subject lists now include a sort by relevance (created by the subject librarian) as well as a title sort. This can be viewed in the placement of the Business Source Premier database for one subject (figure 12) versus another (figure 13).</p>
+        <p class="caption" id="f12">Figure 12: Databases sorted for the psychology subject.</p>
+        <p class="caption">Available at <a href="http://216.47.136.104/databases/by-subject/psychology" target="_blank">http://216.47.136.104/databases/by-subject/psychology</a>.</p>
+        <img src="/assets/images/psychology.png" />          
+
+        <p class="caption" id="f13">Figure 13: Databases sorted for the business subject.</p>
+        <p class="caption">Available at <a href="http://216.47.136.104/databases/by-subject/business" target="_blank">http://216.47.136.104/databases/by-subject/business</a>.</p>
+        <img src="/assets/images/business.png" />          
+
+        <h2>User personas</h2>
+        <p>I wanted to create user personas to guide design decisions for the new site. There was no user testing that done for the current website, and I think that it is evident in the current site's design: the home page includes more than 50 links. This obscures the three-to-four links that are constantly used, and so I was determined to make IIT student input a large factor in the site redesign. </p>
+        <p>I advertised within the university's daily email communication for students willing to be interviewed about their research habits. I chose six to interview: two graduate students and four undergraduates, with five different areas of study between them. I scheduled to interview them in reference suite, which is not a public area; each interview lasted 30 to 45 minutes. I received permission from all the students to record the audio of these sessions. </p>
+        <p>I used the same question structure for each interview, borrowing heavily from the topics suggested in Mulder's <em>The User is Always Right: A Practical Guide to Creating and Using Personas for the Web</em> (2007). </p>
+        
+         <p class="caption" id="t3">Table 3: Questions used for user interviews.</p>
+         <?php include("/includes/interview-table.html"); ?>
+
+         <p>After the interviews were complete, I realized that I had limited my subjects to students who were proactive enough to read university communications and respond to a survey. I also wanted to get the perspectives of students who don't normally engage with the library, so I developed a short, five-minute interview that used a subset of the questions above and conducted several additional interviews outside of the student cafeteria at lunchtime. </p>
+         <p>Here are some paraphrased quotes from both the short and extended interviews</p>
+         <blockquote>If you go to library.iit.edu, it shows up one way. If you go to it through Blackboard, it shows up a different way. And if you go to it through [my.iit.edu/ library resources], it shows up a different way.</blockquote>
+         <blockquote>My "perfect site" would include a single search box that searches all IIT resources.</blockquote>
+         <blockquote>I would like the site to be more simple, with a better layout and color scheme.</blockquote>
+         <blockquote>I use the SciFinder database from the databases page and start with an author search. If the author is prolific, I'll use the title stub from the citation I have. I also might Google the author first, and then use Google Scholar to see what references come up.</blockquote>
+         <p>
+           The interviews helped me define two types of student users: those who wouldn't normally use the library website, but need to in order to access subscription resources, and those who are interested in learning about library resources and use the website as the first stop in their research. Rather than thinking about these types as undergraduate versus graduate students, I instead created the "sporadic" and "power" user personas that can be viewed in Appendix B: <em>Harried Javier</em> and <em>Resolute Rebecca</em>.</p>
+         <p>Javier and Rebecca's personas are now posted in my office so that I will remember to consider their needs as the new site is built. I plan to create a faculty persona in the future as well.</p>
+         <h2>User experience testing</h2>
+         <p>The project I conducted with two classmates for the COM525 (User Experience Research and Evaluation) class helped inform the approach I will use to create a "database finder" to help guide students to locate scholarly library sources. The semester-long project started with interviewing students to find out how they conduct research for their assignments. We were not surprised to find out that students preferred to use Google as it is already a tool they use every day. What did surprise us was how they would simply accept whatever results they found in Google and would not bother seek help from another source, whether from a database or from IIT librarians. Here are some work activity notes from that process:</p>
+         <blockquote>I'd rather use Google Scholar first because it searches many databases instead of just one at a time.</blockquote>
+         <blockquote>I used Google to find people who agreed with my thesis statement to find resources for my paper.</blockquote>
+         <blockquote>The user thinks the library's material is very reliable, but there's not as much available as compared to Google Scholar.</blockquote>
+         <p>The last note in particular highlights the need for better design in the library website. The library has much more information than will appear in Google Scholar, but the site needs to provide better access to it.</p>
+         <p>Working from the user research, we designed a very simple Google-like paper prototype that students could use to find a subscription database on the new library website, named "HawkEye." It would include each database's name and description, as well as tags with IIT course prefixes (MMAE, ECE, etc.) so that students could quickly find resources tied to one of their classes. The search box would be the most visible item, with a list of suggested ways to use it (see figure 14).</p>
+
+        <p class="caption" id="f14">Figure 14: HawkEye prototype&mdash;initial home page</p>
+        <img src="/assets/images/hawkeye-home.png" />   
+
+        <p>We anticipated that students would enter searches that were too discrete to be successful, so we constructed a more detailed error page. The error page would still include the search box, but would also provide direct links to database resources by subject area and content type (see figure 15).</p>
+        <p class="caption" id="f15">Figure 15: HawkEye prototype&mdash;error page</p>
+        <img src="/assets/images/hawkeye-error.png" />   
+        
+        <p>The results were conclusive: our design was not successful. The testers ignored the directions on the home page in favor of submitting too-discrete entries into the search box. One task was to locate a database by the type of content it contained:</p>
+        <blockquote>You have an assignment to write a 4-page paper on animal physiology for your biology class. Your professor has instructed you to cite at least 2 sources from scholarly articles. You have arrived at the HawkEye home page to search for these sources.</blockquote>
+        <p>As noted earlier, our testers used terms that were too narrow (animal physiology) instead of those tied to a particular subject or course (biology). The main take-away from this project for me was: <em>don't make it look like Google if you can't make it act like Google</em>.</p>
+        
+        <p>In the executive summary section of the report, we included a revised home page that focused more on browsing than on searching (see figure 16).</p>
+        <p class="caption" id="f16">Figure 16: HawkEye prototype&mdash;revised home page</p>
+        <img src="/assets/images/hawkeye-revised-home.png" />   
+        
+        <p>I am committed to continuing user experience testing throughout the design and build process. It will not be as expansive as the semester-long research I conducted with my COM525 team, but I plan on creating many small, quickly-completed tests to help me make design and content decisions while I build the site.</p>
