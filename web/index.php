@@ -1,6 +1,6 @@
-<?php include("/includes/head.html") ?>
+<?php include("includes/head.html") ?>
 <body>
-  <?php include("/includes/nav.html") ?>
+  <?php include("includes/nav.html") ?>
 
   
   <section class="chapter">
@@ -103,7 +103,7 @@
 		<div class="large-12 columns">
 			<h1>Appendix A: Content Inventory</h1>
       <p>(opens PDF in new tab)</p>
-      <a href="/assets/content-inventory.pdf" target="_blank"><img src="/assets/images/inventory.png" /></a>
+      <a href="assets/content-inventory.pdf" target="_blank"><img src="assets/images/inventory.png" /></a>
     </div>  
 	</div>    
 </section>     
@@ -113,12 +113,12 @@
       <div class="large-12 columns">
         <h1>Appendix B: User Personas</h1>
         <h2>Javier</h2>
-        <img src="/assets/images/javier.jpg" />   
+        <img src="assets/images/javier.jpg" />   
         <h2>Rebecca</h2>
-        <img src="/assets/images/rebecca.jpg" />
+        <img src="assets/images/rebecca.jpg" />
       </div>
   </div>
   </section>
   
-<?php include("/includes/footer.html") ?>
+<?php include("includes/footer.html") ?>
   
