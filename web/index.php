@@ -5,7 +5,7 @@
   
   <section class="chapter">
 	<div class="row">
-		<div class="large-12 columns">
+		<div class="large-8 columns">
 			<h1>Galvin Library Website Redesign</h1>
       <h2>Christine McClure</h2>
       <p class="bump"></p>
