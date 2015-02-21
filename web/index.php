@@ -112,9 +112,9 @@
 	  <div class="row">
       <div class="large-12 columns">
         <h1>Appendix B: User Personas</h1>
-        <h2>Javier</h2>
+        <h2 class="chapter" id="javier">Javier</h2>
         <img src="assets/images/javier.jpg" />   
-        <h2>Rebecca</h2>
+        <h2 class="chapter" id="rebecca">Rebecca</h2>
         <img src="assets/images/rebecca.jpg" />
       </div>
   </div>
