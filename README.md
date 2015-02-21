@@ -7,9 +7,9 @@ __________________
 __________________
 #To Do
 - (x) Change Intro to Exec Summary
-- ( ) Add Content Inventory to appendix
-- ( ) Add more references to decision-making points
-- ( ) Add more visuals for explanation: tables, screenshots, etc.
+- (x) Add Content Inventory to appendix
+- (x) Add more references to decision-making points
+- (x) Add more visuals for explanation: tables, screenshots, etc.
 - ( ) Work with Max to get 104 site as an installable environment
 
 
