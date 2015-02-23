@@ -7,8 +7,9 @@
     $(document).foundation();
   </script>
   <script>
-    $('.nav-item').click(function(){
-      $('.nav-item').removeClass('active');
+    $('.subnav-item').click(function(){
+      alert($(this).prop('id'));
+      $('.subnav-item').removeClass('active');
       $(this).addClass('active');
 });
   </script>  
