@@ -9617,39 +9617,47 @@ th.hide-for-touch {
     page-break-after: always;
   }
 }
-/* line 75, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
+.citation {
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  font-size: 110%;
+  padding-left: 22px;
+  text-indent: -22px;
+}
+
+/* line 81, ../sass/app.scss */
 nav.top-bar {
   margin-bottom: 100px;
 }
 
-/* line 77, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .bump {
   margin: 100px 0 0 0;
 }
 
-/* line 79, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 .no-dec li {
   list-style: none;
 }
 
-/* line 81, ../sass/app.scss */
+/* line 87, ../sass/app.scss */
 .sub1 {
   margin-left: 20px;
 }
 
-/* line 82, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 .sub2 {
   margin-left: 40px;
 }
 
-/* line 84, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 span.fix {
   color: red;
   font-size: 18px;
   font-weight: 900;
 }
 
-/* line 86, ../sass/app.scss */
+/* line 92, ../sass/app.scss */
 p a {
   font-family: monospace;
   font-weight: 600;
@@ -9657,31 +9665,31 @@ p a {
   color: #686868;
 }
 
-/* line 93, ../sass/app.scss */
+/* line 99, ../sass/app.scss */
 .row img {
   margin: 6px 0 40px 0;
   border: 1px solid #cccccc;
 }
 
-/* line 98, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 .row table {
   margin: 6px 0 40px 0;
 }
 
-/* line 100, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 sup a:hover, sup a:focus, sup a:active {
   padding: 200px 4px 8px 4px;
   outline: 0;
 }
 
-/* line 102, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 p sup, p sup a {
   font-size: 74%;
   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   color: black;
 }
 
-/* line 108, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 p.caption {
   margin: 0;
   font-size: 90%;
