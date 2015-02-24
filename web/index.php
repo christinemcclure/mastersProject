@@ -86,6 +86,7 @@
 		<div class="row">
 		<div class="large-12 columns">
 			<h1>Bibliography</h1>
+      <p class="bump"></p>
       <?php include("bibliography.html") ?>    
     </div>  
 	</div>    
