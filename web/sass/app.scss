@@ -89,7 +89,7 @@ nav.top-bar{margin-bottom: 100px;}
 .sub1{margin-left:20px;}
 .sub2{margin-left:40px;}
 
-span.fix{color:red; font-size:18px; font-weight: 900;}
+.fix{color:red; font-size:18px; font-weight: 900;}
 
 p a {
   font-family: monospace;
@@ -105,7 +105,7 @@ p a {
 
 .row table {margin: 6px 0 40px 0;}
 
-sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
+sup a, sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
 
  p sup, p sup a{
   font-size: 74%;
