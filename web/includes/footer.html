@@ -14,10 +14,12 @@
      });
       
     $('.subnav-item').click(function(){
-      $('.subnav-item').removeClass('active');
-      $(this).addClass('active'); // also automatically adds class to parent li
-      $(this).parent().parent().addClass('top-active'); //cannot remove active class
-//      alert($(this).parent().parent().prop('class'));
+      $('.subnav-item').removeClass('sub-active');
+      $(this).addClass('sub-active'); // also automatically adds class to parent li
+     });
+     
+      $('.clearTOC').click(function(){
+      $('#navOTC').removeClass('active');
      });
    </script>  
 </body>
