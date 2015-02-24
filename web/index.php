@@ -4,16 +4,18 @@
 
   
   <section class="chapter">
-	<div class="row">
-		<div class="large-8 columns">
-			<h1>Galvin Library Website Redesign</h1>
-      <h2>Christine McClure</h2>
-      <p class="bump"></p>
-      <h3>Dr. Karl Stolley</h3>
-      <h3>M.S. Project</h3>
-      <h3>Spring 2015</h3>
-    </div>  
-	</div>
+    <div class="row">
+      <div id="title-page" class="large-8 columns">
+        <h1>Galvin Library Website Redesign</h1>
+        <h2>Christine McClure</h2>
+        <p class="bump"></p>
+        <p>M.S. Project</p>
+        <p>Spring 2015</p>
+        <p>Dr. Karl Stolley</p>
+        <p>Illinois Institute of Technology</p>
+        <p>Lewis College of Human Sciences &mdash; Humanities</p>
+      </div>  
+    </div>
   </section> 
   
  <section class="chapter" id="toc">
