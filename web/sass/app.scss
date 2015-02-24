@@ -97,7 +97,7 @@ p a {
 
 .row table {margin: 6px 0 40px 0;}
 
-sup a{padding:8px;}
+sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
 
  p sup, p sup a{
   font-size: 74%;
