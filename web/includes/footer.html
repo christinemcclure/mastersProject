@@ -16,7 +16,9 @@
     $('.subnav-item').click(function(){
       $('.subnav-item').removeClass('active');
       $(this).addClass('active'); // also automatically adds class to parent li
+      $(this).parent().parent().addClass('top-active'); //cannot remove active class
+//      alert($(this).parent().parent().prop('class'));
      });
-  </script>  
+   </script>  
 </body>
 </html>
