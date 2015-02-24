@@ -17,32 +17,24 @@
     </div>
   </section> 
   
- <section class="chapter" id="toc">
-		<div class="row">
-		<div class="large-8 columns">
-			<h1>Table of Contents</h1>
-      <?php include("toc.html") ?>    
-    </div>  
-	</div>
-</section>
   
- <section class="chapter" id="figures">
+ <section class="chapter" id="figs-tables">
 		<div class="row">
 		<div class="large-8 columns">
-			<h1>Table of Figures</h1>
+			<h1 class="chapter" id="figures">Table of Figures</h1>
       <?php include("figures.html") ?>    
-    </div>  
+    </div>       
 	</div>   
   </section>    
   
  <section class="chapter" id="tables">
 		<div class="row">
 		<div class="large-8 columns">
-			<h1>Table of Tables</h1>
+			<h1 class="chapter" id="tables">Table of Tables</h1>
       <?php include("tables.html") ?>    
-    </div>  
-	</div>     
- </section>
+    </div>        
+	</div>   
+  </section>    
   
  <section class="chapter" id="summary">
 		<div class="row">
