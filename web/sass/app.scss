@@ -71,12 +71,14 @@
     page-break-after: always;
   }
 }
-.citation{
+.citation, .citation a{
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
   font-size:110%;
+  font-weight:normal;
   padding-left: 22px ;
   text-indent: -22px ;
 }
+.citation a{padding-left:0; text-indent:0; font-size:100%;}
 
 nav.top-bar{margin-bottom: 100px;}
 

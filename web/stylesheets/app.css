@@ -9618,46 +9618,54 @@ th.hide-for-touch {
   }
 }
 /* line 74, ../sass/app.scss */
-.citation {
+.citation, .citation a {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
   font-size: 110%;
+  font-weight: normal;
   padding-left: 22px;
   text-indent: -22px;
 }
 
 /* line 81, ../sass/app.scss */
+.citation a {
+  padding-left: 0;
+  text-indent: 0;
+  font-size: 100%;
+}
+
+/* line 83, ../sass/app.scss */
 nav.top-bar {
   margin-bottom: 100px;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 .bump {
   margin: 100px 0 0 0;
 }
 
-/* line 85, ../sass/app.scss */
+/* line 87, ../sass/app.scss */
 .no-dec li {
   list-style: none;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 89, ../sass/app.scss */
 .sub1 {
   margin-left: 20px;
 }
 
-/* line 88, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 .sub2 {
   margin-left: 40px;
 }
 
-/* line 90, ../sass/app.scss */
+/* line 92, ../sass/app.scss */
 span.fix {
   color: red;
   font-size: 18px;
   font-weight: 900;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 p a {
   font-family: monospace;
   font-weight: 600;
@@ -9665,31 +9673,31 @@ p a {
   color: #686868;
 }
 
-/* line 99, ../sass/app.scss */
+/* line 101, ../sass/app.scss */
 .row img {
   margin: 6px 0 40px 0;
   border: 1px solid #cccccc;
 }
 
-/* line 104, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 .row table {
   margin: 6px 0 40px 0;
 }
 
-/* line 106, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 sup a:hover, sup a:focus, sup a:active {
   padding: 200px 4px 8px 4px;
   outline: 0;
 }
 
-/* line 108, ../sass/app.scss */
+/* line 110, ../sass/app.scss */
 p sup, p sup a {
   font-size: 74%;
   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   color: black;
 }
 
-/* line 114, ../sass/app.scss */
+/* line 116, ../sass/app.scss */
 p.caption {
   margin: 0;
   font-size: 90%;
