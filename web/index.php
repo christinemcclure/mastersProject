@@ -12,7 +12,7 @@
         <p>M.S. Project</p>
         <p>Spring 2015</p>
         <p>Dr. Karl Stolley</p>
-        <p>Illinois Institute of Technology | Lewis College of Human Sciences &mdash; Humanities</p>
+        <p>Illinois Institute of Technology | Lewis College of Human Sciences | Humanities Department</p>
       </div>  
     </div>
   </section> 
