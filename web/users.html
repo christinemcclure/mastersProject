@@ -1,8 +1,8 @@
         <h2 class="chapter" id="custom">Customize the main navigation to library's needs</h2>
-        <p>The look and feel of the current library website was developed by IIT's Marketing and Communication department. It uses the same color scheme, header and footer as the university site. The only areas that were customized for the library were the address and contact links; all of the other items remained the same. One problem our students have with this design is with this secondary header (figure 10).</p>
-        <p class="caption" id="f10">Figure 10: Current website secondary header.</p>
+        <p>The look and feel of the current library website was developed by IIT's Marketing and Communication department. It uses the same color scheme, header and footer as the university's site at the time. The only areas that were customized for the library were the address and contact links; all of the other items remained the same. One problem our students have with this design is with this secondary header (figure 10).</p>
+        <p class="caption" id="f10">Figure 10: Secondary header on the current library website.</p>
         <img src="assets/images/header.png" />   
-        <p>These links were designed to appeal to people who are not currently students at IIT: prospective students, employers, and former students. Current students looking for library resources often click on these links because of their bright colors and prominence on the page. Doing this removes them from the library website: library.iit.edu is located on a different server than www.iit.edu so that we can easily make changes to the site. Students become confused when they click on one of these links and leave the library site entirely. </p>
+        <p>These links were designed to appeal to people who are not currently students at IIT, such as prospective students, employers, and former students. Current students looking for library resources often click on these links because of their bright colors and prominence on the page. Doing this removes them from the library website: library.iit.edu is located on a different server than www.iit.edu so that we can easily make changes to the site. Students become confused when they click on one of these links and leave the library site entirely. </p>
         <p>The header on the new IIT site would cause even more confusion for students. Figure 11 is a screenshot of the new site at web.iit.edu with the "research" submenu displayed:</p>
         
         <p class="caption" id="f11">Figure 11: IIT main site secondary header.</p>
@@ -17,7 +17,11 @@
         <p class="caption" id="f12">Figure 12: Proposed header for new library site.</p>
         <img src="assets/images/proposed-header.png" />        
    
-        <p>The combination of statistics and mockup was successful; the Marketing and Communications team will allow us to create our own header for the website. <span class="fix">Add more to header and include link</span></p>
+        <p>The combination of statistics and mockup was successful; the Marketing and Communications team will allow us to create our own header for the website. After getting some instruction on how to set up the Drupal header module created by a developer on the IIT team, I have a separate header set up for library-specific items. Figure 13 shows the header with main and secondary entries designed primarily for current students and faculty. As it is still under construction, I have written a short script (Python) that will allow me to convert a comma-delimited spreadsheet into the structure used by the IIT header module. The current version of the header can be viewed at <a href="http://216.47.136.104/">http://216.47.136.104/</a>.</p>
+        
+        <p class="caption" id="f13">Figure 13: New website header with student subheader displayed.</p>
+        <p class="caption">Screenshot taken March 1st, 2015.</p>        
+        <img src="assets/images/drupal-library-header.png" />  
         
         <h3 class="chapter" id="sort">Custom sort for database subjects</h3>
         <p>The importance of electronic resources differs by subject area, and even within different sub-sections of one discipline. There are many databases that are useful for a broad range of subjects: Business Source Premier is listed as a resource for several major areas of study at IIT, from Applied Economics to Engineering Management to Psychology. But the importance of this resource can be different for each area. A code library was in the Drupal online community that solved this dilemma. The databases by subject lists now include a sort by relevance (created by the subject librarian) as well as a title sort. This can be viewed in the placement of the Business Source Premier database for one subject (figure 13) versus another (figure 14).</p>
