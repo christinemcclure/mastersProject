@@ -133,7 +133,7 @@ nav.top-bar{margin-bottom: 100px;}
 
 .fix{color:red; font-size:18px; font-weight: 900;}
 
-p a {
+p a:not(.title) {
   font-family: monospace;
   font-weight: 600;
   font-size: 124%;
@@ -159,4 +159,11 @@ p.caption{
   margin:0;
   font-size: 90%;
   line-height: 98%;
+}
+
+#title-page{
+  p {
+    line-height:.8;
+    font-size:1.2rem;
+  }
 }

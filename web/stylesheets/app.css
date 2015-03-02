@@ -9696,7 +9696,7 @@ nav.top-bar {
 }
 
 /* line 136, ../sass/app.scss */
-p a {
+p a:not(.title) {
   font-family: monospace;
   font-weight: 600;
   font-size: 124%;
@@ -9732,4 +9732,10 @@ p.caption {
   margin: 0;
   font-size: 90%;
   line-height: 98%;
+}
+
+/* line 165, ../sass/app.scss */
+#title-page p {
+  line-height: .8;
+  font-size: 1.2rem;
 }
