@@ -9,7 +9,7 @@
         <h1>Galvin Library Website Redesign</h1>
         <h2>Christine McClure</h2>
         <p class="bump"></p>
-        <p>M.S. Project</p>
+        <p>M.S. Project: <a class="title" target="_blank" href="http://humansciences.iit.edu/humanities/programs/graduate-programs/master-science-information-architecture-iarc">Information Architecture</a></p>
         <p>Spring 2015</p>
         <p>Dr. Karl Stolley</p>
         <p>Illinois Institute of Technology | Lewis College of Human Sciences | Humanities Department</p>
