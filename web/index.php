@@ -53,7 +53,16 @@
     </div>  
 	</div>    
 </section>    
-  
+    
+ <section class="chapter" id="users">
+		<div class="row">
+		<div class="large-12 columns">
+			<h1>User-Centered Design</h1>
+      <?php include("users.html") ?>    
+    </div>  
+	</div>    
+</section>     
+
 <section class="chapter" id="databases">
 		<div class="row">
 		<div class="large-12 columns">
@@ -63,15 +72,6 @@
 	</div>    
 </section>      
   
-  
- <section class="chapter" id="users">
-		<div class="row">
-		<div class="large-12 columns">
-			<h1>User-Centered Design</h1>
-      <?php include("users.html") ?>    
-    </div>  
-	</div>    
-</section>     
   
  <section class="chapter" id="conclusion">
 		<div class="row">
