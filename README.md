@@ -1,12 +1,10 @@
 #IIT Information Architecture master's program
 ##Project documentation
 
-###View online at [mastersproject.christinemcclure.com](mastersproject.christinemcclure.com)
+###View online at [mastersproject.christinemcclure.com](http://mastersproject.christinemcclure.com)
 
 __________________
 [Graduate College to-do list](http://www.iit.edu/graduate_college/academic_affairs/dates_grad_students.shtml)
-
-[Forms](http://www.iit.edu/graduate_college/academic_affairs/FormsGradStu.shtml)
 __________________
 ##To Do
 - (x) Change Intro to Exec Summary
