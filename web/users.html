@@ -17,19 +17,19 @@
         <p class="caption" id="f12">Figure 12: Proposed header for new library site.</p>
         <img src="assets/images/proposed-header.png" />        
    
-        <p>The combination of statistics and mockup was successful; the Marketing and Communications team will allow us to create our own header for the website. After getting some instruction on how to set up the Drupal header module created by a developer on the IIT team, I have a separate header set up for library-specific items. Figure 13 shows the header with main and secondary entries designed primarily for current students and faculty. As it is still under construction, I have written a short script (Python) that will allow me to convert a comma-delimited spreadsheet into the structure used by the IIT header module. The current version of the header can be viewed at <a href="http://216.47.136.104/">http://216.47.136.104/</a>.</p>
+        <p>The combination of statistics and mockup was successful; the Marketing and Communications team will allow us to create our own header for the website. After getting some instruction on how to set up the Drupal header module created by a developer on the IIT team, I created a separate header for library-specific links. Figure 13 shows the header with main and secondary entries designed primarily for current students and faculty. Student workers at the library are helping me come up with appropriate links. As the header is still under construction, I have written a short script (Python) that will allow me to convert a comma-delimited spreadsheet into the structure used by the IIT header module. The current version of the header can be viewed at <a href="http://216.47.136.104/">http://216.47.136.104/</a>.</p>
         
-        <p class="caption" id="f13">Figure 13: New website header with student subheader displayed.</p>
+        <p class="caption" id="f13">Figure 13: New website header with student subheading displayed.</p>
         <p class="caption">Screenshot taken March 1st, 2015.</p>        
         <img src="assets/images/drupal-library-header.png" />  
         
         <h3 class="chapter" id="sort">Custom sort for database subjects</h3>
-        <p>The importance of electronic resources differs by subject area, and even within different sub-sections of one discipline. There are many databases that are useful for a broad range of subjects: Business Source Premier is listed as a resource for several major areas of study at IIT, from Applied Economics to Engineering Management to Psychology. But the importance of this resource can be different for each area. A code library was in the Drupal online community that solved this dilemma. The databases by subject lists now include a sort by relevance (created by the subject librarian) as well as a title sort. This can be viewed in the placement of the Business Source Premier database for one subject (figure 13) versus another (figure 14).</p>
-        <p class="caption" id="f13">Figure 13: Databases sorted for the psychology subject.</p>
+        <p>The importance of electronic resources differs by subject area, and even within different sub-sections of one discipline. There are many databases that are useful for a broad range of subjects: Business Source Premier is listed as a resource for several major areas of study at IIT, from Applied Economics to Engineering Management to Psychology. But the importance of this database is different for each area, and I needed to reflect this difference. The Drupal community solved this problem with a module that allows for different sort filters to be applied to the same database query. The "databases by subject" pages now include a sort by relevance (created by the subject librarian) as well as a sort by title. This can be viewed in the placement of the Business Source Premier database for one subject (figure 14) versus another (figure 15).</p>
+        <p class="caption" id="f14">Figure 14: Databases sorted for the psychology subject.</p>
         <p class="caption">Available at <a href="http://216.47.136.104/databases/by-subject/psychology" target="_blank">http://216.47.136.104/databases/by-subject/psychology</a>.</p>
         <img src="assets/images/psychology.png" />          
 
-        <p class="caption" id="f14">Figure 14: Databases sorted for the business subject.</p>
+        <p class="caption" id="f15">Figure 15: Databases sorted for the business subject.</p>
         <p class="caption">Available at <a href="http://216.47.136.104/databases/by-subject/business" target="_blank">http://216.47.136.104/databases/by-subject/business</a>.</p>
         <img src="assets/images/business.png" />          
 
@@ -57,21 +57,21 @@
          <blockquote>I used Google to find people who agreed with my thesis statement to find resources for my paper.</blockquote>
          <blockquote>The user thinks the library's material is very reliable, but there's not as much available as compared to Google Scholar.</blockquote>
          <p>The last note in particular highlights the need for better design in the library website. The library has much more information than will appear in Google Scholar, but the site needs to provide better access to it.</p>
-         <p>Working from the user research, we designed a very simple Google-like paper prototype that students could use to find a subscription database on the new library website, named "HawkEye." It would include each database's name and description, as well as tags with IIT course prefixes (MMAE, ECE, etc.) so that students could quickly find resources tied to one of their classes. The search box would be the most visible item, with a list of suggested ways to use it (see figure 15).</p>
+         <p>Working from the user research, we designed a very simple Google-like paper prototype that students could use to find a subscription database on the new library website, named "HawkEye." It would include each database's name and description, as well as tags with IIT course prefixes (MMAE, ECE, etc.) so that students could quickly find resources tied to one of their classes. The search box would be the most visible item, with a list of suggested ways to use it (see figure 16).</p>
 
-        <p class="caption" id="f15">Figure 15: HawkEye prototype&mdash;initial home page</p>
+        <p class="caption" id="f16">Figure 16: HawkEye prototype&mdash;initial home page</p>
         <img src="assets/images/hawkeye-home.png" />   
 
-        <p>We anticipated that students would enter searches that were too discrete to be successful, so we constructed a more detailed error page. The error page would still include the search box, but would also provide direct links to database resources by subject area and content type (see figure 16).</p>
-        <p class="caption" id="f16">Figure 16: HawkEye prototype&mdash;error page</p>
+        <p>We anticipated that students would enter searches that were too discrete to be successful, so we constructed a more detailed error page. The error page would still include the search box, but would also provide direct links to database resources by subject area and content type (see figure 17).</p>
+        <p class="caption" id="f17">Figure 17: HawkEye prototype&mdash;error page</p>
         <img src="assets/images/hawkeye-error.png" />   
         
         <p>The results were conclusive: our design was not successful. The testers ignored the directions on the home page in favor of submitting too-discrete entries into the search box. One task was to locate a database by the type of content it contained:</p>
         <blockquote>You have an assignment to write a 4-page paper on animal physiology for your biology class. Your professor has instructed you to cite at least 2 sources from scholarly articles. You have arrived at the HawkEye home page to search for these sources.</blockquote>
-        <p>As noted earlier, our testers used terms that were too narrow (animal physiology) instead of those tied to a particular subject or course (biology). The main take-away from this project for me was: <em>don't make it look like Google if you can't make it act like Google</em>.</p>
+        <p>As noted earlier, our testers used terms that were too narrow (animal physiology) instead of those tied to a particular subject or course (biology). The main concept I learned from this project for me was: <em>don't make it look like Google if you can't make it act like Google</em>.</p>
         
-        <p>In the executive summary section of the report, we included a revised home page that focused more on browsing than on searching (see figure 17).</p>
-        <p class="caption" id="f17">Figure 17: HawkEye prototype&mdash;revised home page</p>
+        <p>In the executive summary section of the report, we included a revised home page that focused more on browsing than on searching (see figure 18).</p>
+        <p class="caption" id="f18">Figure 18: HawkEye prototype&mdash;revised home page.</p>
         <img src="assets/images/hawkeye-revised-home.png" />   
         
         <p>I am committed to continuing user experience testing throughout the design and build process. It will not be as expansive as the semester-long research I conducted with my COM525 team, but I plan on creating many small, quickly-completed tests to help me make design and content decisions while I build the site.</p>
