@@ -9578,72 +9578,76 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 62, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 .top-bar, .title-area, .top-bar .name h1 a, .top-bar-section li:not(.has-form) a:not(.button) {
-  background: grey;
-  color: red;
+  background: black;
 }
 
-/* line 68, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: orange;
-}
-
-/* line 73, ../sass/app.scss */
-.top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: green;
+  background: #0B486B;
 }
 
 /* line 78, ../sass/app.scss */
-.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
-  background: gold;
+.top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section ul li {
+  background: #010a0f;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+  background: #06293d;
+}
+
+/* line 88, ../sass/app.scss */
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: #555152;
+}
+
+/* line 93, ../sass/app.scss */
 .top-bar-section .dropdown li.sub-active:not(.has-form):not(.active) > a:not(.button) {
-  background: red;
+  background: #0e5b87;
 }
 
 @media only screen and (min-width: 1100px) {
-  /* line 90, ../sass/app.scss */
+  /* line 100, ../sass/app.scss */
   .row {
     max-width: 76rem;
   }
 
-  /* line 91, ../sass/app.scss */
+  /* line 101, ../sass/app.scss */
   .chapter, .caption {
     padding-top: 100px;
   }
 
-  /* line 92, ../sass/app.scss */
+  /* line 102, ../sass/app.scss */
   .caption + .caption {
     padding: 0;
   }
 
-  /* line 93, ../sass/app.scss */
+  /* line 103, ../sass/app.scss */
   section.chapter {
     padding-bottom: 600px;
   }
 }
 @media print {
-  /* line 96, ../sass/app.scss */
+  /* line 106, ../sass/app.scss */
   .no-print {
     display: none;
   }
 
-  /* line 97, ../sass/app.scss */
+  /* line 107, ../sass/app.scss */
   ul.title-area h1 a {
     text-decoration: none;
     font-size: 150%;
   }
 
-  /* line 101, ../sass/app.scss */
+  /* line 111, ../sass/app.scss */
   section.chapter {
     margin: 50px 0 0 0;
     page-break-after: always;
   }
 }
-/* line 106, ../sass/app.scss */
+/* line 116, ../sass/app.scss */
 .citation, .citation a {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
   font-size: 110%;
@@ -9652,46 +9656,46 @@ th.hide-for-touch {
   text-indent: -22px;
 }
 
-/* line 113, ../sass/app.scss */
+/* line 123, ../sass/app.scss */
 .citation a {
   padding-left: 0;
   text-indent: 0;
   font-size: 100%;
 }
 
-/* line 115, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 nav.top-bar {
   margin-bottom: 100px;
 }
 
-/* line 117, ../sass/app.scss */
+/* line 127, ../sass/app.scss */
 .bump {
   margin: 100px 0 0 0;
 }
 
-/* line 119, ../sass/app.scss */
+/* line 129, ../sass/app.scss */
 .no-dec li {
   list-style: none;
 }
 
-/* line 121, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 .sub1 {
   margin-left: 20px;
 }
 
-/* line 122, ../sass/app.scss */
+/* line 132, ../sass/app.scss */
 .sub2 {
   margin-left: 40px;
 }
 
-/* line 124, ../sass/app.scss */
+/* line 134, ../sass/app.scss */
 .fix {
   color: red;
   font-size: 18px;
   font-weight: 900;
 }
 
-/* line 126, ../sass/app.scss */
+/* line 136, ../sass/app.scss */
 p a {
   font-family: monospace;
   font-weight: 600;
@@ -9699,31 +9703,31 @@ p a {
   color: #686868;
 }
 
-/* line 133, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
 .row img {
   margin: 6px 0 40px 0;
   border: 1px solid #cccccc;
 }
 
-/* line 138, ../sass/app.scss */
+/* line 148, ../sass/app.scss */
 .row table {
   margin: 6px 0 40px 0;
 }
 
-/* line 140, ../sass/app.scss */
+/* line 150, ../sass/app.scss */
 sup a, sup a:hover, sup a:focus, sup a:active {
   padding: 200px 4px 8px 4px;
   outline: 0;
 }
 
-/* line 142, ../sass/app.scss */
+/* line 152, ../sass/app.scss */
 p sup, p sup a {
   font-size: 74%;
   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   color: black;
 }
 
-/* line 148, ../sass/app.scss */
+/* line 158, ../sass/app.scss */
 p.caption {
   margin: 0;
   font-size: 90%;

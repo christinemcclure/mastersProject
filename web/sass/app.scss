@@ -56,32 +56,42 @@
 
 ///////////////
 
+$black: #2E2633;
+$grey: #555152;
+$maroon: #99173C;
+$blue: #0B486B;
+
 // TOP BAR OVERRIDES
 
 //background
 .top-bar, .title-area, .top-bar .name h1 a, .top-bar-section li:not(.has-form) a:not(.button){
-    background:grey;
-    color:red;
+  background:black;
 }
 
 //active heading
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background:orange; 
+  background:$blue;
+  
 }
 
 //heading hover
-.top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background:green; 
+.top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section ul li  {
+  background: darken($blue,20%);
 }
+
 
 //subheading hover
 .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover{
-  background:gold; 
+  background: darken($blue,10%);
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button){
+  background:$grey;
 }
 
 //subheading active
 .top-bar-section .dropdown li.sub-active:not(.has-form):not(.active) > a:not(.button){
-  background:red; //working
+   background:lighten($blue,6%); 
 }
 
 /////////////////
