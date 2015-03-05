@@ -1,3 +1,5 @@
+<!--NOTE: Make sure permissions for this file are 744 for website. -->
+
 <?php include("includes/head.html") ?>
 <body>
   <?php include("includes/nav.html") ?>
