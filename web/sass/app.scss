@@ -94,6 +94,9 @@ $blue: #0B486B;
    background:lighten($blue,6%); 
 }
 
+.fixed{
+  height:60px;
+}
 /////////////////
 
 @media only screen and (min-width: 1100px){

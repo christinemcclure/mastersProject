@@ -9608,46 +9608,51 @@ th.hide-for-touch {
   background: #0e5b87;
 }
 
+/* line 97, ../sass/app.scss */
+.fixed {
+  height: 60px;
+}
+
 @media only screen and (min-width: 1100px) {
-  /* line 100, ../sass/app.scss */
+  /* line 103, ../sass/app.scss */
   .row {
     max-width: 76rem;
   }
 
-  /* line 101, ../sass/app.scss */
+  /* line 104, ../sass/app.scss */
   .chapter, .caption {
     padding-top: 100px;
   }
 
-  /* line 102, ../sass/app.scss */
+  /* line 105, ../sass/app.scss */
   .caption + .caption {
     padding: 0;
   }
 
-  /* line 103, ../sass/app.scss */
+  /* line 106, ../sass/app.scss */
   section.chapter {
     padding-bottom: 600px;
   }
 }
 @media print {
-  /* line 106, ../sass/app.scss */
+  /* line 109, ../sass/app.scss */
   .no-print {
     display: none;
   }
 
-  /* line 107, ../sass/app.scss */
+  /* line 110, ../sass/app.scss */
   ul.title-area h1 a {
     text-decoration: none;
     font-size: 150%;
   }
 
-  /* line 111, ../sass/app.scss */
+  /* line 114, ../sass/app.scss */
   section.chapter {
     margin: 50px 0 0 0;
     page-break-after: always;
   }
 }
-/* line 116, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 .citation, .citation a {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
   font-size: 110%;
@@ -9656,46 +9661,46 @@ th.hide-for-touch {
   text-indent: -22px;
 }
 
-/* line 123, ../sass/app.scss */
+/* line 126, ../sass/app.scss */
 .citation a {
   padding-left: 0;
   text-indent: 0;
   font-size: 100%;
 }
 
-/* line 125, ../sass/app.scss */
+/* line 128, ../sass/app.scss */
 nav.top-bar {
   margin-bottom: 100px;
 }
 
-/* line 127, ../sass/app.scss */
+/* line 130, ../sass/app.scss */
 .bump {
   margin: 100px 0 0 0;
 }
 
-/* line 129, ../sass/app.scss */
+/* line 132, ../sass/app.scss */
 .no-dec li {
   list-style: none;
 }
 
-/* line 131, ../sass/app.scss */
+/* line 134, ../sass/app.scss */
 .sub1 {
   margin-left: 20px;
 }
 
-/* line 132, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 .sub2 {
   margin-left: 40px;
 }
 
-/* line 134, ../sass/app.scss */
+/* line 137, ../sass/app.scss */
 .fix {
   color: red;
   font-size: 18px;
   font-weight: 900;
 }
 
-/* line 136, ../sass/app.scss */
+/* line 139, ../sass/app.scss */
 p a:not(.title) {
   font-family: monospace;
   font-weight: 600;
@@ -9703,38 +9708,38 @@ p a:not(.title) {
   color: #686868;
 }
 
-/* line 143, ../sass/app.scss */
+/* line 146, ../sass/app.scss */
 .row img {
   margin: 6px 0 40px 0;
   border: 1px solid #cccccc;
 }
 
-/* line 148, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 .row table {
   margin: 6px 0 40px 0;
 }
 
-/* line 150, ../sass/app.scss */
+/* line 153, ../sass/app.scss */
 sup a, sup a:hover, sup a:focus, sup a:active {
   padding: 200px 4px 8px 4px;
   outline: 0;
 }
 
-/* line 152, ../sass/app.scss */
+/* line 155, ../sass/app.scss */
 p sup, p sup a {
   font-size: 74%;
   font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   color: black;
 }
 
-/* line 158, ../sass/app.scss */
+/* line 161, ../sass/app.scss */
 p.caption {
   margin: 0;
   font-size: 90%;
   line-height: 98%;
 }
 
-/* line 165, ../sass/app.scss */
+/* line 168, ../sass/app.scss */
 #title-page p {
   line-height: .8;
   font-size: 1.2rem;
