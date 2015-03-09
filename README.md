@@ -1,17 +1,19 @@
 #IIT Information Architecture master's program
+
 ##Project documentation
 
-###View online at [mastersproject.christinemcclure.com](http://mastersproject.christinemcclure.com)
+Spring 2015
 
-__________________
-[Graduate College to-do list](http://www.iit.edu/graduate_college/academic_affairs/dates_grad_students.shtml)
-__________________
-##To Do
-- (x) Change Intro to Exec Summary
-- (x) Add Content Inventory to appendix
-- (x) Add more references to decision-making points
-- (x) Add more visuals for explanation: tables, screenshots, etc.
-- ( ) Work with Max to get 104 site as an installable environment
+Dr. Karl Stolley
+
+Illinois Institute of Technology | Lewis College of Human Sciences | Humanities Department
+
+### Repository includes:
+* Paper
+* Project environment as of March 6th, 2015. See environment README for more information.
+
+
+###View and print from [mastersproject.christinemcclure.com](http://mastersproject.christinemcclure.com)
 
 
 
