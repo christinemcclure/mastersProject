@@ -114,6 +114,15 @@ p.note {
   border-bottom: 1px solid $blue;
 }
 
+sup a, sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
+
+ p sup, p sup a:not(.title){
+  font-size: 82%;
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color:$blue;
+  font-weight:600;
+}
+
 @media only screen and (min-width: 1100px){
   .row{max-width:76rem;}
   .chapter, .caption{padding-top:80px;}
@@ -130,6 +139,11 @@ p.note {
     margin: 50px 0 0 0;
     page-break-after: always;
   }
+  
+  a[href]:after {
+    content: none !important;
+  }
+
 }
 .citation, .citation a{
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
@@ -177,14 +191,4 @@ p.caption{
     line-height:.8;
     font-size:1.2rem;
   }
-}
-
-
-sup a, sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
-
- p sup, p sup a:not(.title){
-  font-size: 82%;
-  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-  color:$blue;
-  font-weight:600;
 }
