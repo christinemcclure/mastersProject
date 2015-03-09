@@ -101,9 +101,9 @@ $blue: #0B486B;
 
 @media only screen and (min-width: 1100px){
   .row{max-width:76rem;}
-  .chapter, .caption{padding-top:100px;}
+  .chapter, .caption{padding-top:80px;}
   .caption + .caption{padding:0;}
-  section.chapter{padding-bottom:600px;}
+  section.chapter{padding-bottom:200px;}
 }
 @media print {
   .no-print {display:none;}

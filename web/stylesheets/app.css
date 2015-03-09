@@ -9621,7 +9621,7 @@ th.hide-for-touch {
 
   /* line 104, ../sass/app.scss */
   .chapter, .caption {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   /* line 105, ../sass/app.scss */
@@ -9631,7 +9631,7 @@ th.hide-for-touch {
 
   /* line 106, ../sass/app.scss */
   section.chapter {
-    padding-bottom: 600px;
+    padding-bottom: 200px;
   }
 }
 @media print {
