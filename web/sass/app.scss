@@ -108,6 +108,12 @@ blockquote{
   padding: 10px;
 }
 
+p.note {
+  padding:10px 0;
+  border-top: 1px solid $blue;
+  border-bottom: 1px solid $blue;
+}
+
 @media only screen and (min-width: 1100px){
   .row{max-width:76rem;}
   .chapter, .caption{padding-top:80px;}
@@ -159,13 +165,6 @@ p a:not(.title) {
 
 .row table {margin: 6px 0 40px 0;}
 
-sup a, sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
-
- p sup, p sup a{
-  font-size: 74%;
-  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-  color:black;
-}
 
 p.caption{
   margin:0;
@@ -178,4 +177,14 @@ p.caption{
     line-height:.8;
     font-size:1.2rem;
   }
+}
+
+
+sup a, sup a:hover, sup a:focus, sup a:active{padding:200px 4px 8px 4px; outline:0;}
+
+ p sup, p sup a:not(.title){
+  font-size: 82%;
+  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color:$blue;
+  font-weight:600;
 }
