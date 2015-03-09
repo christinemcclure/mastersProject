@@ -94,8 +94,8 @@ $blue: #0B486B;
    background:lighten($blue,6%); 
 }
 
-.fixed{
-  height:60px;
+.fixed{ // remove overlap that keeps links from being clicked
+  height:45px;
 }
 /////////////////
 
